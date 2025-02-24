@@ -92,16 +92,18 @@ NEXT_PUBLIC_CREWAI_URL=http://127.0.0.1:8000
 
 ## 📜 API Endpoints./
 FastAPI Backend
+```bash
 Method	Endpoint	Description
 GET	/	API Health Check
 POST	/kickoff/	Start idea generation
 GET	/status/{kickoff_id}	Check job status
 GET	/new-ideas/	Fetch newly generated video ideas
 GET	/idea-details/	Get details of an idea
+```
 
 ## 🤝 Contributing
-Fork this repository.
-Create a new branch (feature-branch).
-Commit your changes.
-Push to your fork.
-Submit a pull request.
+- Fork this repository.
+- Create a new branch (feature-branch).
+- Commit your changes.
+- Push to your fork.
+- Submit a pull request.
