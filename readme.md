@@ -20,6 +20,7 @@ Drizzle ORM - Database management
 
 ## 🏗 Project Structure
 
+```
 YOUTUBEIDEAGENERATORAIFULLSTACK/ 
 │── 📂 youtube-idea-generator-fastapi/ # Backend (FastAPI)  
 ├── 📄 api.py # FastAPI endpoints 
@@ -40,7 +41,7 @@ YOUTUBEIDEAGENERATORAIFULLSTACK/
 ├── 📂 public/ # Static assets 
 │── 📄 .gitignore # Git ignore file 
 │── 📄 README.md # Documentation
-
+```
 
 ## ⚡ Installation & Setup
 
@@ -79,16 +80,17 @@ Your frontend app will be available at http://localhost:3000.
 ```
 
 ### 📌 **Environment Variables**
+```bash
 Copy .env.example as .env and update values.
-
 
 #### FastAPI
 CREWAI_URL=http://127.0.0.1:8000
 CREWAI_BEARER_TOKEN=your_secret_token
-
 #### Next.js
 NEXT_PUBLIC_CREWAI_URL=http://127.0.0.1:8000
-📜 API Endpoints
+```
+
+## 📜 API Endpoints./
 FastAPI Backend
 Method	Endpoint	Description
 GET	/	API Health Check
